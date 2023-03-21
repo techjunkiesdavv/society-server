@@ -1,1 +1,4 @@
-export const schemaTypes = []
+import contact from "./contact";
+export const schemaTypes =[
+   contact
+] ;
