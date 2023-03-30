@@ -1,4 +1,4 @@
- const committeMembers= {
+const committeMembers = {
   title: 'Society Committee Members',
   name: 'committeMembers',
   type: 'document',
@@ -45,7 +45,6 @@
       validation: (Rule) => Rule.required(),
     },
   ],
-
 }
 
-export default committeMembers ;
+export default committeMembers
