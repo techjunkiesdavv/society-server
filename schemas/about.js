@@ -1,21 +1,21 @@
-const about= {  name:'about',
-    title:'About',
-    type:'document',
-    fields:[
-        {
-            name:'heading',
-            title:'Heading',
-            type:'string',
-            validation: Rule => Rule.required(),
-        },
-        {
-            name:'content',
-            title:'Content',
-            type:'string',
-            validation: Rule => Rule.required(),
-        }
-    ],
-    
-    }
+const about = {
+  name: 'about',
+  title: 'About',
+  type: 'document',
+  fields: [
+    {
+      name: 'heading',
+      title: 'Heading',
+      type: 'string',
+      validation: (Rule) => Rule.required(),
+    },
+    {
+      name: 'content',
+      title: 'Content',
+      type: 'text',
+      validation: (Rule) => Rule.required(),
+    },
+  ],
+}
 
-export default about ;  
+export default about
