@@ -3,16 +3,16 @@ import {deskTool} from 'sanity/desk'
 import {visionTool} from '@sanity/vision'
 import {schemaTypes} from './schemas'
 
-export default defineConfig({
+export default defineConfig(({env})=>({
   name: 'default',
   title: 'society-server',
 
-  projectId: '1way5vqg',
-  dataset: 'production',
+  projectId: env('PROJECT_ID'),
+  dataset: env('DATA_SET'),
 
   plugins: [deskTool(), visionTool()],
 
   schema: {
     types: schemaTypes,
   },
-})
+}))
