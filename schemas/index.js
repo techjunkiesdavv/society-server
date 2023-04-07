@@ -4,6 +4,7 @@ import committeMembers from './committeeMembers'
 import announcements from "./announcements";
 import bills from "./bills";
 import facilityContacts from "./facilityContacts";
+import userSchema from "./users";
 
 export const schemaTypes =[
    announcements,
@@ -11,6 +12,7 @@ export const schemaTypes =[
    committeMembers, 
    about ,
    bills,
-   facilityContacts
+   facilityContacts,
+   userSchema
 
 ] ;

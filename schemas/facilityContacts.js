@@ -127,27 +127,3 @@ const facilityContacts = {
 
 export default facilityContacts
 
-//    const facilities =
-//         [
-            
-//                 {
-//                     title: "Electrician",
-//                     src: electricianimg,
-//                     employees: [
-//                      {
-//                     name: 'Ramesh Gautam',
-//                     phone: '+913332456337',
-//                     rating: '3.5',
-//                     charge: '200',
-//                     src: electricianimg1
-//                 }, {
-//                     name: 'Prem Sahu',
-//                     phone: '+913332456337',
-//                     rating: '3.5',
-//                     charge: '200',
-//                     src: electricianimg1
-//                 }]
-//                 },
-    
-            
-//         ];
