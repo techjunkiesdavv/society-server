@@ -44,6 +44,12 @@ const committeMembers = {
       type: 'string',
       validation: (Rule) => Rule.required(),
     },
+    {
+      title: 'image',
+      name: 'image',
+      type: 'image',
+      validation: (Rule) => Rule.required(),
+    },
   ],
 }
 

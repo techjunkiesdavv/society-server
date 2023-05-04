@@ -15,6 +15,23 @@ const about = {
       type: 'text',
       validation: (Rule) => Rule.required(),
     },
+    {
+      name: 'flats',
+      title: 'flats',
+      type: 'text',
+      validation: (Rule) => Rule.required(),
+    },
+    {
+      name: 'members',
+      title: 'members',
+      type: 'text',
+      validation: (Rule) => Rule.required(),
+    },{
+      name: 'wings',
+      title: 'wings',
+      type: 'text',
+      validation: (Rule) => Rule.required(),
+    },
   ],
 }
 
