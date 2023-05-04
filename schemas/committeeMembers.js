@@ -50,6 +50,7 @@ const committeMembers = {
       type: 'image',
       validation: (Rule) => Rule.required(),
     },
+    
   ],
 }
 
