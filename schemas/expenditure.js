@@ -1,8 +1,8 @@
 const expenditure= {  
-     name: 'expenditure',
+  name: 'expenditure',
   title: 'Expenditure',
   type: 'document',
-  fields: [
+  fields:[ 
     {
       name: 'balance',
       title: 'Balance',
@@ -45,7 +45,5 @@ const expenditure= {
     paymentHistory: [],
   },
   liveEdit: true,
-};
-    
-
+}; 
 export default expenditure ;  
